@@ -1,0 +1,50 @@
+.section-hero {
+	height: 650px;
+	margin-top: 82px;
+	background: linear-gradient(180deg, rgba(242, 249, 255, 0.12) 0%, #F2F9FF 100%);
+	border-radius: 0px;
+	text-align: center;
+}
+
+h1 {
+	font-family: Halyard Text;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 56px;
+	line-height: 105%;
+	color: #1E266D;
+	margin-top: 50px;
+}
+
+h2 {
+	font-family: Halyard Text;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 150%;
+	color: #455880;
+	margin-top: 10px;
+}
+
+.btn-primary {
+	border-radius: 70px;
+	margin-top: 20px;
+	font-family: Halyard Text;
+}
+
+.btn-light {
+	border-radius: 100px;
+	margin-top: 20px;
+	font-family: Halyard Text;
+}
+
+/*for mobile*/
+@media (max-width: 480px) {
+	h1 {
+		font-size: 30px;
+	}
+	h2{
+		font-size: 15px;
+	}
+}
+
